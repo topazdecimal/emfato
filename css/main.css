@@ -223,8 +223,11 @@ footer li {
   .section-heading {
     margin-bottom: 20px;
   }
-  #about, #subsidiaries, footer {
-    padding: 50px 30px;
+  #about, #subsidiaries {
+    padding: 70px 30px;
+  }
+  footer {
+    padding: 30px;
   }
   .sub-wrapper {
     display: -ms-grid;
