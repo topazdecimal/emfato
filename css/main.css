@@ -204,6 +204,66 @@ footer li {
   height: auto;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-item img {
+    max-height: 2.4rem;
+  }
+  .hero-title {
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: 120%;
+    color: #293737;
+    margin-bottom: 20px;
+  }
+  .hero-subtitle {
+    color: #293737;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .section-heading {
+    margin-bottom: 20px;
+  }
+  #about, #subsidiaries {
+    padding: 70px 30px;
+  }
+  footer {
+    padding: 30px;
+  }
+  .hero {
+    background: url(/img/mobile-bg.svg);
+  }
+  .hero-text-side {
+    padding: 10% 20px;
+  }
+  .hero-image-side {
+    padding: 20px;
+  }
+  .sub-box .sub-box-logo {
+    display: block;
+    padding: 30px;
+  }
+  .sub-box .sub-box-logo img {
+    width: 80% !important;
+    height: auto;
+  }
+  .sub-box .sub-box-text {
+    padding: 20px;
+    background: #fafafa;
+  }
+  .sub-box .sub-box-text p {
+    margin-bottom: 20px;
+  }
+  .footer-logo img {
+    width: 50%;
+    height: auto;
+  }
+  .copyright {
+    font-size: .8em !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .navbar-item img {
     max-height: 2.4rem;
