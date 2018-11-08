@@ -182,11 +182,11 @@ footer li {
 
 .sub-box .sub-box-logo {
   display: block;
-  padding: 30px;
+  padding: 20px;
 }
 
 .sub-box .sub-box-logo img {
-  width: 80% !important;
+  width: 90% !important;
   height: auto;
 }
 
@@ -202,6 +202,37 @@ footer li {
 .footer-logo img {
   width: 50%;
   height: auto;
+}
+
+.form-a {
+  background: #fff;
+  padding: 40px;
+}
+
+.blash-bg {
+  background: rgba(220, 242, 25, 0.37);
+  padding: 30px;
+  margin: 0px !important;
+}
+
+.input, .textarea {
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 3px;
+  max-width: 100%;
+  font-family: 'Product Sans', sans-serif;
+  width: 100%;
+}
+
+.full-button {
+  width: 100% !important;
+}
+
+.lithium {
+  width: 720px !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -261,6 +292,9 @@ footer li {
   }
   .copyright {
     font-size: .8em !important;
+  }
+  .lithium {
+    width: 80%;
   }
 }
 
@@ -331,6 +365,10 @@ footer li {
   }
   .copyright {
     font-size: .8em !important;
+  }
+  .lithium {
+    width: 400px !important;
+    height: 600px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

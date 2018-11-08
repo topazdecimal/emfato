@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="geo.region" content="NG-LA" />
+<meta name="geo.placename" content="Lekki" />
+<meta name="geo.position" content="6.431272;3.457163" />
+<meta name="ICBM" content="6.431272, 3.457163" />
+
     <title>Emfato Holdings - Empowering Farmers Together</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
@@ -10,6 +15,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/lity.min.css" rel="stylesheet">
+    <script src="vendor/jquery.js"></script>
+    <script src="js/lity.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head>
@@ -40,8 +48,8 @@
                   <a class="navbar-item" href="#subsidiaries">
                     Our Brands
                   </a>
-                  <a class="navbar-item">
-                    Reach us
+                  <a href="#contact-modal" class="navbar-item" data-lity>
+                    Contact us
                   </a>
                   
                 </div>
@@ -109,7 +117,7 @@
                 <div class="sub-wrapper">
                     <div class="sub-box has-text-centered" data-aos="fade-up">
                       <div class="sub-box-logo">
-                        <img src="img/farmcrowdy.png">
+                        <img src="img/farmcrowdy.svg">
                       </div>
                       <div class="sub-box-text">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque, repellendus tenetur similique labore commodi rem necessitatibus.</p>
@@ -118,7 +126,7 @@
                     </div>
                     <div class="sub-box has-text-centered" data-aos="fade-up">
                         <div class="sub-box-logo">
-                          <img src="img/farmgate.png">
+                          <img src="img/farmgate_africa.svg">
                         </div>
                         <div class="sub-box-text">
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque, repellendus tenetur similique labore commodi rem necessitatibus.</p>
@@ -127,7 +135,7 @@
                       </div>
                       <div class="sub-box has-text-centered" data-aos="fade-up">
                           <div class="sub-box-logo">
-                            <img src="img/agricsquare.png">
+                            <img src="img/agricsquare.svg">
                           </div>
                           <div class="sub-box-text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque, repellendus tenetur similique labore commodi rem necessitatibus.</p>
@@ -140,6 +148,73 @@
             </div>
           </div>
       </section>
+      <div class="lithium lity-hide" id="contact-modal">
+          <div class="form-a">
+              <form action="https://formspree.io/topaz.adedapo@gmail.com" method="POST">
+                  <div class="field">
+                      <label class="label">Your Name</label>
+                      <div class="control has-icons-left has-icons-right">
+                          <input class="input is-medium" type="text" placeholder="e.g. Emeka Adekunle" name="Name">
+                          <span class="icon is-small is-left">
+                              <i class="fas fa-user"></i>
+                          </span>
+                  
+                      </div>
+                  
+                  </div>
+                  
+                  <div class="field">
+                      <label class="label">Your Email</label>
+                      <div class="control has-icons-left">
+                          <input class="input is-medium" type="email" placeholder="youremail@email.com" name="Email">
+                          <span class="icon is-small is-left">
+                              <i class="fas fa-envelope"></i>
+                          </span>
+                  
+                      </div>
+                  
+                  </div>
+                  <div class="field">
+                      <label class="label">Your Phone</label>
+                      <div class="control has-icons-left">
+                          <input class="input is-medium" type="text" placeholder="+2348012346736" name="Phone">
+                          <span class="icon is-small is-left">
+                              <i class="fas fa-mobile"></i>
+                          </span>
+                  
+                      </div>
+                  
+                  </div>
+                  <div class="field">
+                      <label class="label">Organization</label>
+                      <div class="control has-icons-left">
+                          <input class="input is-medium" type="text" placeholder="Company Ltd." name="Organization">
+                          <span class="icon is-small is-left">
+                              <i class="fas fa-building"></i>
+                          </span>
+                  
+                      </div>
+                  
+                  </div>
+                  
+                  <div class="field">
+                      <label class="label">Your Message</label>
+                      <div class="control">
+                          <textarea class="textarea is-medium" placeholder="Your message here" name="Message"></textarea>
+                      </div>
+                  </div>
+                  
+                  <input type="text" name="_gotcha" style="display:none">
+                  
+                  <div class="field">
+                      <div class="control">
+                          <button class="button is-dark is-large full-button">Submit</button>
+                      </div>
+                  
+                  </div>
+              </form>
+          </div>
+      </div>
       <footer class="">
         <div class="container">
           <div class="columns is-centered">

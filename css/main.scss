@@ -175,9 +175,9 @@ height: 1px;
 }
     .sub-box-logo{
         display: block;
-        padding:30px;
+        padding:20px;
         img{
-            width:80% !important;
+            width:90% !important;
             height: auto;
         }
     }
@@ -197,6 +197,34 @@ height: 1px;
         width: 50%;
         height: auto;
     }
+}
+
+.form-a {
+    background: #fff;
+    padding: 40px;
+}
+.blash-bg{
+    background: rgba(220, 242, 25, 0.37);
+    padding: 30px;
+    margin:0px !important;
+}
+.input, .textarea {
+    background-color: white;
+    border-color: #dbdbdb;
+    color: #363636;
+    box-shadow: none;
+    border-radius: 3px;
+    max-width: 100%;
+    font-family: 'Product Sans', sans-serif;
+    width: 100%;
+}
+.full-button {
+    width: 100% !important;
+}
+
+//lity
+.lithium{
+    width: 720px !important;
 }
 //media queries
 
@@ -268,6 +296,11 @@ and (max-width : 1024px)  {
     .copyright{
         font-size:.8em !important;
     }
+
+//lity
+.lithium{
+    width: 80%;
+}
     
 }
 
@@ -344,4 +377,9 @@ and (max-width : 1024px)  {
         font-size:.8em !important;
     }
     
+//lity
+.lithium{
+    width: 400px !important;
+    height: 600px !important;
+}
   }
