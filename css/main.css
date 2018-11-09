@@ -76,7 +76,10 @@ body {
 }
 
 #about {
-  background: rgba(220, 242, 25, 0.432);
+  background-color: #def219;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cfde35' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a9c63f' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23b7d328' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%238fb13d' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23a8cf33' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2389bc39' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%238ebd3b' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237fc034' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2387c744' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2391cb62' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23609a42' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2353a127' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #about-contd {
@@ -346,7 +349,7 @@ footer li {
   .section-heading {
     margin-bottom: 20px;
   }
-  #about, #subsidiaries {
+  #about, #about-contd, #subsidiaries {
     padding: 70px 30px;
   }
   footer {
@@ -392,6 +395,9 @@ footer li {
   }
   .copyright {
     font-size: .8em !important;
+  }
+  .button-x {
+    font-size: 1em;
   }
   .lithium {
     width: 400px !important;
