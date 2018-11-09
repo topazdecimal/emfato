@@ -65,6 +65,12 @@ body{
     line-height: 1.5;
     margin-bottom: 30px;
 }
+.highlight{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 100%;
+}
 
 //sections
 %section-padding {
@@ -77,6 +83,14 @@ body{
 }
 #subsidiaries{
     @extend %section-padding;
+}
+#about-contd{
+    @extend %section-padding;
+    background: #fafafa;
+    background-size: inherit;
+    background-image: url(/img/abt-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer{
     hr{
@@ -127,7 +141,7 @@ height: 1px;
 }
 
 .img-side{
-    width:100%;
+    width:90%;
 }
 
 .about-text{
@@ -137,9 +151,21 @@ height: 1px;
         top: 10px;
         width: 22%;
     }
-    p{
-        margin-bottom:20px;
+    .highlight-box{
+        padding: 40px;
+        background: rgb(249, 252, 223);
+        color: #293737;
+        margin: 20px auto;
+        border-radius:5px;
+        box-shadow: 0 5px 6px rgba(0, 0, 0, 0.137), 0 5px 5px rgba(0, 0, 0, 0.062);
+        
+        h3{
+            line-height: 150%;
+            margin-bottom: 15px;
+        }
     }
+    
+    
 }
 
 .section-heading{
@@ -148,7 +174,8 @@ height: 1px;
 .about-img{
     img{
         border-radius: 5px;
-        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        margin-bottom: 50px;
+        // box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
         -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition:         all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
         &:hover{
@@ -167,7 +194,7 @@ height: 1px;
 .sub-box{
     border-radius:5px;
     border: 1px solid #efefef;
-
+    background: #fafafa;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition:         all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   &:hover{
@@ -175,7 +202,8 @@ height: 1px;
 }
     .sub-box-logo{
         display: block;
-        padding:20px;
+        padding:0px;
+        background: #fff;
         img{
             width:90% !important;
             height: auto;

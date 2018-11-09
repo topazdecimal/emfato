@@ -64,12 +64,27 @@ body {
   margin-bottom: 30px;
 }
 
-#about, #subsidiaries, footer {
+.highlight {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 0px;
+  line-height: 100%;
+}
+
+#about, #subsidiaries, #about-contd, footer {
   padding: 150px 0px;
 }
 
 #about {
   background: rgba(220, 242, 25, 0.432);
+}
+
+#about-contd {
+  background: #fafafa;
+  background-size: inherit;
+  background-image: url(/img/abt-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -126,7 +141,7 @@ footer li {
 }
 
 .img-side {
-  width: 100%;
+  width: 90%;
 }
 
 .about-text .hero-title::after {
@@ -136,8 +151,19 @@ footer li {
   width: 22%;
 }
 
-.about-text p {
-  margin-bottom: 20px;
+.about-text .highlight-box {
+  padding: 40px;
+  background: #f9fcdf;
+  color: #293737;
+  margin: 20px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.137), 0 5px 5px rgba(0, 0, 0, 0.062);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.137), 0 5px 5px rgba(0, 0, 0, 0.062);
+}
+
+.about-text .highlight-box h3 {
+  line-height: 150%;
+  margin-bottom: 15px;
 }
 
 .section-heading {
@@ -146,8 +172,7 @@ footer li {
 
 .about-img img {
   border-radius: 5px;
-  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin-bottom: 50px;
   -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -171,6 +196,7 @@ footer li {
 .sub-box {
   border-radius: 5px;
   border: 1px solid #efefef;
+  background: #fafafa;
   -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -182,7 +208,8 @@ footer li {
 
 .sub-box .sub-box-logo {
   display: block;
-  padding: 20px;
+  padding: 0px;
+  background: #fff;
 }
 
 .sub-box .sub-box-logo img {
