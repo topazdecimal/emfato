@@ -50,6 +50,11 @@ body{
     
 }
 
+.special{
+    width:400px;
+    height: auto;
+}
+
 //titles
 .hero-title{
     font-weight: 700;
@@ -417,5 +422,9 @@ and (max-width : 1024px)  {
 .lithium{
     width: 400px !important;
     height: 600px !important;
+}
+.special{
+    width:70%;
+    height: auto;
 }
   }
