@@ -51,7 +51,7 @@ body{
 }
 
 .special{
-    width:400px;
+    width:320px;
     height: auto;
 }
 
@@ -343,7 +343,7 @@ and (max-width : 1024px)  {
     
 }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .navbar-item img {
         max-height: 2.4rem;
     }
@@ -426,7 +426,7 @@ and (max-width : 1024px)  {
     height: 600px !important;
 }
 .special{
-    width:70%;
+    width:50%;
     height: auto;
 }
   }
